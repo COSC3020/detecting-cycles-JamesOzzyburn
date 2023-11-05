@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12737443&assignment_repo_type=AssignmentRepo)
 # Detecting Cycles in Graphs
 
 Kruskal's Algorithm adds edges to the minimum spanning tree, unless they would
@@ -14,3 +15,7 @@ exercises.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+
+## Runtime Analysis Answer
+I believe that the worst time compleixty would be $\Theta (V + E)$ where V is number of verticies and E is number of edges. I believe this because in order for us to say for certain that we dont have any cycles in our graph we have to go through the entire graph. This is same/similar runtime complexity logic as augmenting path, depth first search, etc.
