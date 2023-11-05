@@ -15,3 +15,7 @@ exercises.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+
+## Runtime Analysis Answer
+I believe that the worst time compleixty would be $\Theta (V + E)$ where V is number of verticies and E is number of edges. I believe this because in order for us to say for certain that we dont have any cycles in our graph we have to go through the entire graph. This is same/similar runtime complexity logic as augmenting path, depth first search, etc.
